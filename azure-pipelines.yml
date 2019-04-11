@@ -35,7 +35,7 @@ steps:
 
 - script: |
     python -m pip install pylint
-    plyint -f msvs --exit-zero .
+    pylint -f msvs --exit-zero .
   displayName: 'Run lint tests'
   
 - script: |
